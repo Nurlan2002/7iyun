@@ -18,6 +18,6 @@ connectDB();
 
 
 PORT = process.env.PORT;
-app.listen(PORT, () => {
-    console.log(`Node App listening on port ${PORT}`);
+app.listen(8080, () => {
+    console.log(`Node App listening on port ${8080}`);
 }); 
